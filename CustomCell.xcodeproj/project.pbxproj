@@ -13,6 +13,7 @@
 		F8CE6634251A2F5A00D926C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8CE6632251A2F5A00D926C8 /* Main.storyboard */; };
 		F8CE6636251A2F5E00D926C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8CE6635251A2F5E00D926C8 /* Assets.xcassets */; };
 		F8CE6639251A2F5E00D926C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8CE6637251A2F5E00D926C8 /* LaunchScreen.storyboard */; };
+		F8CE6641251A314E00D926C8 /* FruitTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8CE6640251A314E00D926C8 /* FruitTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		F8CE6635251A2F5E00D926C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F8CE6638251A2F5E00D926C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F8CE663A251A2F5E00D926C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8CE6640251A314E00D926C8 /* FruitTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				F8CE662C251A2F5A00D926C8 /* AppDelegate.swift */,
 				F8CE662E251A2F5A00D926C8 /* SceneDelegate.swift */,
 				F8CE6630251A2F5A00D926C8 /* ViewController.swift */,
+				F8CE6640251A314E00D926C8 /* FruitTableViewCell.swift */,
 				F8CE6632251A2F5A00D926C8 /* Main.storyboard */,
 				F8CE6635251A2F5E00D926C8 /* Assets.xcassets */,
 				F8CE6637251A2F5E00D926C8 /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8CE6641251A314E00D926C8 /* FruitTableViewCell.swift in Sources */,
 				F8CE6631251A2F5A00D926C8 /* ViewController.swift in Sources */,
 				F8CE662D251A2F5A00D926C8 /* AppDelegate.swift in Sources */,
 				F8CE662F251A2F5A00D926C8 /* SceneDelegate.swift in Sources */,

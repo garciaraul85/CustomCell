@@ -20,7 +20,7 @@
                                 <rect key="frame" x="0.0" y="44" width="414" height="818"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="140" id="eJM-8L-M69">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="140" id="eJM-8L-M69" customClass="FruitTableViewCell" customModule="CustomCell" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="414" height="140"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="eJM-8L-M69" id="7Wm-a6-C9k">
@@ -49,6 +49,10 @@
                                                 <constraint firstAttribute="bottom" secondItem="sD2-sY-X7C" secondAttribute="bottom" id="t4a-d3-zac"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="fruitImageView" destination="sD2-sY-X7C" id="gvJ-xe-dHd"/>
+                                            <outlet property="fruitNameLabel" destination="5Rg-oo-9O0" id="Bij-Vu-mtO"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
@@ -62,6 +66,9 @@
                             <constraint firstItem="tvY-bq-fBW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="YnH-sE-xa1"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="tableView" destination="tvY-bq-fBW" id="PWV-cT-JuK"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
